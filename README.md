@@ -3,19 +3,19 @@
 PROCESSO DE CRIAÇÃO DO DJANGO NO REPOSITÓRIO
 
 Criar e ativar o ambiente virtual
--> python -m venv venv
--> .\venv\Scripts\activate
+- python -m venv venv
+- .\venv\Scripts\activate
 
 Instalar o Django
--> pip install Django
+- pip install Django
 
 Criar o projeto dentro do repositorio no Django
--> django-admin startproject calouroPlus
--> cd calouroPlus
--> python manage.py startap calouroPlusApp
+- django-admin startproject calouroPlus
+- cd calouroPlus
+- python manage.py startap calouroPlusApp
 
 OBS:
--> ir até o settings.py e adcionar o app que acabamos de criar para o Django conseguir ler o aplicativo
+- ir até o settings.py e adcionar o app que acabamos de criar para o Django conseguir ler o aplicativo
 
 PROCESSO DE ADCIONAR O VIEW + URL DENTRO DO DJANGO
 
