@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'calouroApp',
 ]
 
+AUTH_USER_MODEL = 'calouroApp.Usuario'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
